@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Nube Colectiva">
+    <title>Home | Mi Proyecto</title>    
+ 
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Favicon -->
+    <link rel="icon" href="https://nubecolectiva.com/favicon.ico"> 
+    
+  </head>
+  <body>
+ 
+    <main> 
+     <div class="container mb-5">
+ 
+        <!-- Header -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+ 
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+             <a class="navbar-brand" href="index.html">Liberty School</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+ 
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>                    
+                  </li>
+ 
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="docentes.html">Staff</a>                    
+                  </li>
+ 
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="programas.html">Programas</a>                    
+                  </li>
+ 
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="admisiones.html">Admisiones</a>                    
+                  </li>
+                 <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>                    
+                  
+                  </li>
+                     <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="plataforma.html">Plataforma</a>                    
+                  </li>
+ 
+                </ul>
+              </div>
+            </div>
+          </nav>
+ 
+        </header>
+        
+      </div>
+  <!-- Pills navs -->
+  
+   
+<div class="row justify-content-center text-center"> 
+
+    
+<div class="col-md-4 border border-primary">  
+    <span class="d-block p-2 bg-primary text-white">Acceso a la plataforma educativa</span>
+    <br>
+<ul class="nav nav-pills nav-justified mb-6" id="ex1" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
+      aria-controls="pills-login" aria-selected="true">Login</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab"a
+      aria-controls="pills-register" aria-selected="false">Register</a>
+  </li>
+</ul>
+<!-- Pills navs -->
+
+<!-- Pills content -->
+
+   
+  <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+    <form>
+      <div class="text-center mb-3">
+        <p>Sign in with:</p>
+        <button type="button" class="btn btn-link btn-floating mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+          <i class="fab fa-google"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+          <i class="fab fa-twitter"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+          <i class="fab fa-github"></i>
+        </button>
+      </div>
+
+      <p class="text-center">or:</p>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="loginName" class="form-control" />
+        <label class="form-label" for="loginName">Email or username</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="loginPassword" class="form-control" />
+        <label class="form-label" for="loginPassword">Password</label>
+      </div>
+
+      <!-- 2 column grid layout -->
+      <div class="row mb-4">
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Checkbox -->
+          <div class="form-check mb-3 mb-md-0">
+            <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+            <label class="form-check-label" for="loginCheck"> Remember me </label>
+          </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Simple link -->
+          <a href="#!">Forgot password?</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        <p>Not a member? <a href="#!">Register</a></p>
+      </div>
+    </form>
+  </div>
+  <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+   
+  </div>
+    </div>
+
+</div>
+<!-- Pills content -->
+  
+   
+    </main>
+ 
+    <!-- Footer -->  
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">Liberty School & Kid´s Land© <script>document.write(new Date().getFullYear())</script> </span>
+      </div>
+    </footer>
+ 
+     <!-- Archivo JS Bootstrap 5 -->  
+    <script src="js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>
